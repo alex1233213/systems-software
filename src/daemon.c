@@ -75,13 +75,13 @@ int main()
           // the getppid() will return 1 as the parent (init process)
           
 
-	  //lock_directories();
+	  lock_directories();
 
 	  collect_reports();	  
 	  backup_dashboard();
 
-	  //sleep(15);
-	  //unlock_directories();
+	  sleep(15);
+	  unlock_directories();
  
 				  
 	}

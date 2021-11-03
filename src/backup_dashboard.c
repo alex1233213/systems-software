@@ -2,43 +2,56 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <syslog.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 
 void backup_dashboard(void) {
-	syslog(LOG_INFO, "BEGGINING");
-	int day, month, year;
+	pid_t  pid;
 
-	time_t now;
-	time(&now);
+	pid = fork();
+	if (pid == 0) // child
+	{
+		int day, month, year;
 
-	struct tm *local = localtime(&now);
-	day = local->tm_mday;            // get day of month (1 to 31)
-	month = local->tm_mon + 1;      // get month of year (0 to 11)
-	year = local->tm_year + 1900;   // get year since 1900
+		time_t now;
+		time(&now);
 
-	char archive_path[300];
-	char *backups_dir = "/home/alex/Desktop/assignment/backups/";
+		struct tm *local = localtime(&now);
+		day = local->tm_mday;            // get day of month (1 to 31)
+		month = local->tm_mon + 1;      // get month of year (0 to 11)
+		year = local->tm_year + 1900;   // get year since 1900
 
-	char *assignment_dir = "/home/alex/Desktop/assignment/";
-	char *target_compress_dir = "dashboard/";
-	char transform_arg[300];
-	snprintf(transform_arg, 300, "%s%d%c%d%c%d%s", "s|dashboard_system|dashboard-system-backup-", day, '-', month, '-', year, "|");
+		char archive_path[300];
+		char *backups_dir = "/home/alex/Desktop/assignment/backups/";
 
-	snprintf(archive_path, 300, "%s%s%d%c%d%c%d%s", backups_dir, "dashboard-backup-", day, '-',  month, '-',  year, ".tar.gz");
+		char *assignment_dir = "/home/alex/Desktop/assignment/";
+		char *target_compress_dir = "dashboard/";
+		char transform_arg[300];
+		snprintf(transform_arg, 300, "%s%d%c%d%c%d%s", "s|dashboard_system|dashboard-system-backup-", day, '-', month, '-', year, "|");
 
-	syslog(LOG_INFO, archive_path);
-	syslog(LOG_INFO, assignment_dir);
-	syslog(LOG_INFO, transform_arg);
-	char *args[] = {
-		"/bin/tar",
-		"-czvf",
-		archive_path,
-		"-C",
-		assignment_dir,
-		"dashboard_system",
-		"--transform",
-		transform_arg,
-		NULL
-	};
+		snprintf(archive_path, 300, "%s%s%d%c%d%c%d%s", backups_dir, "dashboard-backup-", day, '-',  month, '-',  year, ".tar.gz");
 
-	execvp(args[0], args);
+
+		char *args[] = {
+			"/bin/tar",
+			"-czvf",
+			archive_path,
+			"-C",
+			assignment_dir,
+			"dashboard_system",
+			"--transform",
+			transform_arg,
+			NULL
+		};
+
+		execvp(args[0], args);
+		
+	}
+	else // parent
+	{
+		int status=0;
+		wait(&status);
+		printf ("Child process is returned with: %d.\n",status);
+	}
+
 }
