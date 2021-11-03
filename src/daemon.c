@@ -68,23 +68,24 @@ int main()
           // Signal Handler goes here
 
           // Log file goes here
-
+	  openlog("MAN-DAEMON-LOGGER", LOG_PID | LOG_CONS, LOG_DAEMON);
           // Orphan Logic goes here!! 
           // Keep process running with infinite loop
           // When the parent finishes after 10 seconds, 
           // the getppid() will return 1 as the parent (init process)
-         
-          //while(1) {
+          
 
 	  //lock_directories();
 
-		collect_reports();	  
-	  //backup_dashboard();
+	  collect_reports();	  
+	  backup_dashboard();
 
-	  sleep(15);
+	  //sleep(15);
 	  //unlock_directories();
  
-			return 0;	  
-		}
+				  
 	}
+	closelog();
+       return 0;
+    }
 }

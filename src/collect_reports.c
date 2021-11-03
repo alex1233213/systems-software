@@ -2,12 +2,12 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-
+#include <syslog.h>
 
 void collect_reports(void) {
 
-
-	pid_t  pid;
+	syslog(LOG_INFO, "COLLDECT");
+	 pid_t  pid;
 
     	 pid = fork();
     	 if (pid == 0) // child
