@@ -1,8 +1,7 @@
 #!/bin/bash
 
-REPORT_DATE=$(date +'%d-%m-%Y')
+audit_file="audit-report-$(date +'%d-%m-%Y').txt"
 
 #generate audit log 
-sudo ausearch -k xml_upload_watch | sudo  aureport -f -i > /home/alex/Desktop/assignment/manufacturing_company_reports/audit_report_${REPORT_DATE}.txt
+sudo ausearch  -ts today -f /home/alex/Desktop/assignment/managers_xml_upload | sudo aureport -f -i  > /home/alex/Desktop/assignment/manufacturing_company_reports/$audit_file
 
-echo 'SCRIPT has been run' > /home/alex/Desktop/assignment/test_output.txt

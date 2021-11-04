@@ -9,5 +9,5 @@ void lock_directories(void);
 
 void unlock_directories(void );
 
-
+void generate_report(void);
 #endif

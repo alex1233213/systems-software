@@ -17,7 +17,7 @@ void unlock_directories() {
                 char *upload_dir = "/home/alex/Desktop/assignment/managers_xml_upload";
                 char *dashboard_dir = "/home/alex/Desktop/assignment/dashboard_system";
 
-                char *args[] = {"/bin/chmod", "770", upload_dir, dashboard_dir};
+                char *args[] = {"/bin/chmod", "770", upload_dir, dashboard_dir, NULL};
 
                 execvp(args[0], args);
         } else {

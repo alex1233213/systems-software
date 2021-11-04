@@ -79,7 +79,7 @@ int main()
 
 	  collect_reports();	  
 	  backup_dashboard();
-
+	  generate_report();
 	  sleep(15);
 	  unlock_directories();
  

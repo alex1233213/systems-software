@@ -6,7 +6,6 @@
 
 void collect_reports(void) {
 
-	syslog(LOG_INFO, "COLLDECT");
 	 pid_t  pid;
 
     	 pid = fork();
