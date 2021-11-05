@@ -1,5 +1,5 @@
 CC = gcc
-objects = daemon.o collect_reports.o backup_dashboard.o lock_directories.o unlock_directories.o generate_report.o
+objects = daemon.o collect_reports.o backup_dashboard.o lock_directories.o unlock_directories.o generate_report.o check_file_uploads.o
 headers = daemon_tasks.h
 flags = -Wall -g
 
@@ -25,6 +25,11 @@ unlock_directories.o: unlock_directories.c
 
 generate_report.o: generate_report.c
 	$(CC) -c generate_report.c
+
+
+check_file_uploads.o: check_file_uploads.c
+	$(CC) -c check_file_uploads.c
+
 
 clean:
 	rm $(objects) daemon

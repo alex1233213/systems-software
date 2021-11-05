@@ -16,13 +16,13 @@
 int main()
 {
     time_t now;
-    struct tm newyear;
+    struct tm backup_time;
     double seconds;
     time(&now);  /* get current time; same as: now = time(NULL)  */
-    newyear = *localtime(&now);
-    newyear.tm_hour = 21; 
-    newyear.tm_min = 23; 
-    newyear.tm_sec = 0;
+    backup_time = *localtime(&now);
+    backup_time.tm_hour = 21; 
+    backup_time.tm_min = 23; 
+    backup_time.tm_sec = 0;
 
     // Implementation for Singleton Pattern if desired (Only one instance running)
 
@@ -32,12 +32,10 @@ int main()
     if (pid > 0) {
         // if PID > 0 :: this is the parent
         // this process performs printf and finishes
-        printf("Parent process");
         sleep(10);  // uncomment to wait 10 seconds before process ends
         exit(EXIT_SUCCESS);
     } else if (pid == 0) {
        // Step 1: Create the orphan process
-       printf("Child process");
        
        // Step 2: Elevate the orphan process to session leader, to loose controlling TTY
        // This command runs the process in a new session
@@ -74,16 +72,33 @@ int main()
           // When the parent finishes after 10 seconds, 
           // the getppid() will return 1 as the parent (init process)
           
+	  struct tm check_uploads_time;
+	  time(&now);  /* get current time; same as: now = time(NULL)  */
+	  check_uploads_time = *localtime(&now);
+	  check_uploads_time.tm_hour = 11; 
+	  check_uploads_time.tm_min = 7; 
+	  check_uploads_time.tm_sec = 0;
+	
+  	  while(1) {
+	  	sleep(1);
+	  	time(&now);
+	  	seconds = difftime(now,mktime(&check_uploads_time));
+		if(seconds == 0) {
+			syslog(LOG_INFO, "CHECKING FOR XML FILES UPLOADS");
+			check_file_uploads();
+		}		
+	  }
 
-	  lock_directories();
+	  
+	  //lock_directories();
 
-	  collect_reports();	  
-	  backup_dashboard();
-	  generate_report();
-	  sleep(15);
-	  unlock_directories();
+	 //collect_reports();	  
+	 // backup_dashboard();
+	 // generate_report();
+	  //sleep(15);
+	 // unlock_directories();
  
-				  
+				   
 	}
 	closelog();
        return 0;
