@@ -93,8 +93,8 @@ int main()
 
 	  //lock_directories();
 
-	 //collect_reports();	  
-	 backup_dashboard();
+	 collect_reports();	  
+	 //backup_dashboard();
 	 // generate_report();
 	  //sleep(15);
 	 // unlock_directories();
