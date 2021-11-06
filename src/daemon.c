@@ -93,9 +93,9 @@ int main()
 
 	  //lock_directories();
 
-	 collect_reports();	  
+	 //collect_reports();	  
 	 //backup_dashboard();
-	 // generate_report();
+	 generate_reports();
 	  //sleep(15);
 	 // unlock_directories();
  
