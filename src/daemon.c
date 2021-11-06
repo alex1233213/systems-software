@@ -79,21 +79,22 @@ int main()
 	  check_uploads_time.tm_min = 7; 
 	  check_uploads_time.tm_sec = 0;
 	
-  	  while(1) {
-	  	sleep(1);
-	  	time(&now);
-	  	seconds = difftime(now,mktime(&check_uploads_time));
-		if(seconds == 0) {
-			syslog(LOG_INFO, "CHECKING FOR XML FILES UPLOADS");
-			check_file_uploads();
-		}		
-	  }
+  	  //while(1) {
+	 // 	sleep(1);
+	 // 	time(&now);
+	 // 	seconds = difftime(now,mktime(&check_uploads_time));
+	//	if(seconds == 0) {
+//			syslog(LOG_INFO, "CHECKING FOR XML FILES UPLOADS");
+//			check_file_uploads();
+//		}		
+//	  }
 
 	  
+
 	  //lock_directories();
 
 	 //collect_reports();	  
-	 // backup_dashboard();
+	 backup_dashboard();
 	 // generate_report();
 	  //sleep(15);
 	 // unlock_directories();
