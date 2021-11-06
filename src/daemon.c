@@ -80,7 +80,7 @@ int main()
 	  check_uploads_time.tm_min = 7; 
 	  check_uploads_time.tm_sec = 0;
 	
-  	  while(1) {
+  	  //while(1) {
 	  	sleep(1);
 
 		if(signal(SIGINT, sig_handler) == SIG_ERR) {
@@ -91,17 +91,17 @@ int main()
 	//	if(seconds == 0) {
 			//check_file_uploads();
 //		}		
-	  }
+	  //}
 
 	  
 
-	 //lock_directories();
+	 lock_directories();
 
 	 //collect_reports();	  
-	 //backup_dashboard();
+	 backup_dashboard();
 	 //generate_reports();
-	 //sleep(15);
-	 //unlock_directories();
+	 sleep(15);
+	 unlock_directories();
  
 				   
 	}	

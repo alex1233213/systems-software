@@ -16,8 +16,14 @@ void lock_directories() {
 	} else if(pid == 0) { 
 		char *upload_dir = "/home/alex/Desktop/assignment/managers_xml_upload";
 		char *dashboard_dir = "/home/alex/Desktop/assignment/dashboard_system";
-		
-		char *args[] = {"/bin/chmod", "000", upload_dir, dashboard_dir, NULL};
+	
+		//set permissions
+		//read and execute for user and group 
+		//other users have no permissions 
+		//this will pevent any changes to be made to the dashboard 
+		//and 
+		//xml upload directories while the transfer and backup is happening	
+		char *args[] = {"/bin/chmod", "550", upload_dir, dashboard_dir, NULL};
 
 		execvp(args[0], args);
 	} else {
