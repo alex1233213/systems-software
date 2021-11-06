@@ -12,4 +12,7 @@ void unlock_directories(void );
 void generate_reports(void);
 
 void check_file_uploads(void);
+
+void sig_handler(int);
 #endif
+

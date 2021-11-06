@@ -9,7 +9,8 @@
 #include <sys/stat.h>
 #include <time.h>
 #include "daemon_tasks.h"
-
+#include <signal.h>
+#include <syslog.h>
 
 
  
@@ -79,28 +80,31 @@ int main()
 	  check_uploads_time.tm_min = 7; 
 	  check_uploads_time.tm_sec = 0;
 	
-  	  //while(1) {
-	 // 	sleep(1);
+  	  while(1) {
+	  	sleep(1);
+
+		if(signal(SIGINT, sig_handler) == SIG_ERR) {
+			syslog(LOG_ERR, "ERROR: daemon.c : SIG_ERR RECEIVED");
+		}
 	 // 	time(&now);
 	 // 	seconds = difftime(now,mktime(&check_uploads_time));
 	//	if(seconds == 0) {
-//			syslog(LOG_INFO, "CHECKING FOR XML FILES UPLOADS");
-//			check_file_uploads();
+			//check_file_uploads();
 //		}		
-//	  }
+	  }
 
 	  
 
-	  lock_directories();
+	 //lock_directories();
 
 	 //collect_reports();	  
 	 //backup_dashboard();
-	 generate_reports();
-	 sleep(15);
-	 unlock_directories();
+	 //generate_reports();
+	 //sleep(15);
+	 //unlock_directories();
  
 				   
-	}
+	}	
 	closelog();
        return 0;
     }
