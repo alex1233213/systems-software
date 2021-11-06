@@ -153,3 +153,5 @@ File Report
 148. 06/11/21 09:37:24 managers_xml_upload/ openat yes /usr/bin/git alex 1295
 149. 06/11/21 09:37:27 managers_xml_upload/ openat yes /usr/bin/git alex 1296
 150. 06/11/21 09:37:28 managers_xml_upload/ openat yes /usr/bin/git alex 1297
+151. 06/11/21 09:50:40 managers_xml_upload/ openat yes /usr/bin/git alex 1372
+152. 06/11/21 09:50:44 managers_xml_upload/ openat yes /usr/bin/git alex 1373
