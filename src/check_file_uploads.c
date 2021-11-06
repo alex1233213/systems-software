@@ -12,6 +12,8 @@ void check_file_uploads(void) {
 
 
         char *files[] = {manufacturing_xml ,  warehouse_xml, sales_xml, distribution_xml};
+	
+	syslog(LOG_INFO, "CHECKING FOR UPLOADED XML REPORTS");
 
         for(int i = 0; i < 4; ++i) {
 

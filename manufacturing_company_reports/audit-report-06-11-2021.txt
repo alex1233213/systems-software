@@ -155,3 +155,15 @@ File Report
 150. 06/11/21 09:37:28 managers_xml_upload/ openat yes /usr/bin/git alex 1297
 151. 06/11/21 09:50:40 managers_xml_upload/ openat yes /usr/bin/git alex 1372
 152. 06/11/21 09:50:44 managers_xml_upload/ openat yes /usr/bin/git alex 1373
+153. 06/11/21 11:14:00 managers_xml_upload/ openat yes /usr/bin/git alex 2080
+154. 06/11/21 11:14:03 managers_xml_upload/ openat yes /usr/bin/git alex 2081
+155. 06/11/21 11:14:04 managers_xml_upload/ openat yes /usr/bin/git alex 2082
+156. 06/11/21 11:23:52 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2131
+157. 06/11/21 11:24:07 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2162
+158. 06/11/21 11:25:24 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2199
+159. 06/11/21 11:26:11 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2206
+160. 06/11/21 11:27:07 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2243
+161. 06/11/21 11:27:22 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2274
+162. 06/11/21 11:30:09 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2287
+163. 06/11/21 11:30:24 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2318
+164. 06/11/21 11:32:25 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod alex 2333

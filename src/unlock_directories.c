@@ -21,7 +21,23 @@ void unlock_directories() {
 
                 execvp(args[0], args);
         } else {
-                wait(NULL);
+               int status;
+  
+		  if(wait(&status) == -1) {
+			  syslog(LOG_ERR, "unlock_directories: wait() failed");
+		  }
+
+
+		  if( (WIFEXITED(status)) ) {
+
+			  if( WEXITSTATUS(status) != 0 ) {
+				  syslog(LOG_ERR, "ERROR UNLOCKING DIRECTORIES, STATUS %d",     WEXITSTATUS(status));
+			  } else {
+				  syslog(LOG_INFO, "DIRECTORIES HAVE BEEN UNLOCKED");
+			  }
+
+		  }
+
         }
 }
         

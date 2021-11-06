@@ -91,14 +91,13 @@ int main()
 
 	  
 
-	  //lock_directories();
+	  lock_directories();
 
 	 //collect_reports();	  
 	 //backup_dashboard();
 	 generate_reports();
-	 syslog(LOG_ERR, "TEST");
-	  //sleep(15);
-	 // unlock_directories();
+	 sleep(15);
+	 unlock_directories();
  
 				   
 	}
