@@ -1,13 +1,13 @@
 [Unit]
-Description=My Website Manager Service
+Description=Manufacturing Company Manager Service
 
 [Service]
 User=root
 WorkingDirectory=/
 KillMode=process
-ExecStart=/usr/bin/myDaemon
+ExecStart=/usr/bin/daemon
 Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
-Alias=webDaemon.service
+Alias=daemon.service

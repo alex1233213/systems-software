@@ -14,16 +14,13 @@ void unlock_directories() {
         if(pid == -1) {
                 syslog(LOG_ERR, "LOCK_DIRECTORIES: ERROR OCCURRED DURING FORK");
         } else if(pid == 0) {
-                char *upload_dir = "/home/alex/Desktop/assignment/managers_xml_upload";
-                char *dashboard_dir = "/home/alex/Desktop/assignment/dashboard_system";
+		char *unlock_script = "/home/alex/Desktop/assignment/src/scripts/unlock_directories.sh";
 
-		//give owner and group read, write and execute permissions after 
-		//file transfer and backup
-                char *args[] = {"/bin/chmod", "770", upload_dir, dashboard_dir, NULL};
+                char *args[] = {"/bin/sh", unlock_script, NULL};
 
                 execvp(args[0], args);
         } else {
-               int status;
+               	  int status;
   
 		  if(wait(&status) == -1) {
 			  syslog(LOG_ERR, "unlock_directories: wait() failed");

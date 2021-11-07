@@ -14,5 +14,7 @@ void generate_reports(void);
 void check_file_uploads(void);
 
 void sig_handler(int);
+
+void update_timer(struct tm*);
 #endif
 

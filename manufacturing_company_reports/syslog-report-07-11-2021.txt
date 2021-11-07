@@ -1,0 +1,370 @@
+Nov  7 00:13:32 debian MAN-DAEMON-LOGGER[585]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Nov  7 00:23:11 debian MAN-DAEMON-LOGGER[583]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Nov  7 00:32:04 debian MAN-DAEMON-LOGGER[583]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Nov  7 00:32:04 debian MAN-DAEMON-LOGGER[583]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Nov  7 00:32:04 debian MAN-DAEMON-LOGGER[1899]: COLLECTING REPORTS
+Nov  7 00:32:04 debian MAN-DAEMON-LOGGER[583]: ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS 1
+Nov  7 00:32:04 debian MAN-DAEMON-LOGGER[583]: Successfully backed up dashboard, STATUS 0
+Nov  7 00:33:04 debian MAN-DAEMON-LOGGER[583]: DIRECTORIES HAVE BEEN UNLOCKED
+Nov  7 00:36:19 debian MAN-DAEMON-LOGGER[583]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Nov  7 00:36:19 debian MAN-DAEMON-LOGGER[583]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Nov  7 00:36:19 debian MAN-DAEMON-LOGGER[1989]: COLLECTING REPORTS
+Nov  7 00:36:19 debian MAN-DAEMON-LOGGER[583]: ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS 1
+Nov  7 00:36:19 debian MAN-DAEMON-LOGGER[583]: Successfully backed up dashboard, STATUS 0
+Nov  7 00:37:19 debian MAN-DAEMON-LOGGER[583]: DIRECTORIES HAVE BEEN UNLOCKED
+Nov  7 00:58:18 debian MAN-DAEMON-LOGGER[2594]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Nov  7 00:59:00 debian MAN-DAEMON-LOGGER[2594]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Nov  7 00:59:00 debian MAN-DAEMON-LOGGER[2614]: COLLECTING REPORTS
+Nov  7 00:59:00 debian MAN-DAEMON-LOGGER[2594]: ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS 1
+Nov  7 00:59:00 debian MAN-DAEMON-LOGGER[2594]: Successfully backed up dashboard, STATUS 0
+Nov  7 00:59:20 debian MAN-DAEMON-LOGGER[2594]: DIRECTORIES HAVE BEEN UNLOCKED
+Nov  7 00:59:20 debian MAN-DAEMON-LOGGER[2631]: GENERATING REPORTS
+Nov  7 00:59:20 debian MAN-DAEMON-LOGGER[2594]: SUCCESSFULLY GENERATED REPORTS
+Nov  7 01:00:00 debian MAN-DAEMON-LOGGER[583]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Nov  7 01:00:00 debian MAN-DAEMON-LOGGER[2659]: COLLECTING REPORTS
+Nov  7 01:00:00 debian MAN-DAEMON-LOGGER[583]: ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS 1
+Nov  7 01:00:00 debian MAN-DAEMON-LOGGER[583]: Successfully backed up dashboard, STATUS 0
+Nov  7 01:00:20 debian MAN-DAEMON-LOGGER[583]: DIRECTORIES HAVE BEEN UNLOCKED
+Nov  7 01:00:20 debian MAN-DAEMON-LOGGER[2669]: GENERATING REPORTS
+Nov  7 01:00:20 debian MAN-DAEMON-LOGGER[583]: SUCCESSFULLY GENERATED REPORTS
+Nov  7 01:01:53 debian MAN-DAEMON-LOGGER[2695]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Nov  7 01:13:16 debian MAN-DAEMON-LOGGER[2926]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Nov  7 01:13:17 debian MAN-DAEMON-LOGGER[2926]: -103 seconds until timer expiers
+Nov  7 01:13:17 debian MAN-DAEMON-LOGGER[2926]: -103 seconds until backup timer
+Nov  7 01:13:18 debian MAN-DAEMON-LOGGER[2926]: -102 seconds until timer expiers
+Nov  7 01:13:18 debian MAN-DAEMON-LOGGER[2926]: -102 seconds until backup timer
+Nov  7 01:13:19 debian MAN-DAEMON-LOGGER[2926]: -101 seconds until timer expiers
+Nov  7 01:13:19 debian MAN-DAEMON-LOGGER[2926]: -101 seconds until backup timer
+Nov  7 01:13:20 debian MAN-DAEMON-LOGGER[2926]: -100 seconds until timer expiers
+Nov  7 01:13:20 debian MAN-DAEMON-LOGGER[2926]: -100 seconds until backup timer
+Nov  7 01:13:21 debian MAN-DAEMON-LOGGER[2926]: -99 seconds until timer expiers
+Nov  7 01:13:21 debian MAN-DAEMON-LOGGER[2926]: -99 seconds until backup timer
+Nov  7 01:13:22 debian MAN-DAEMON-LOGGER[2926]: -98 seconds until timer expiers
+Nov  7 01:13:22 debian MAN-DAEMON-LOGGER[2926]: -98 seconds until backup timer
+Nov  7 01:13:23 debian MAN-DAEMON-LOGGER[2926]: -97 seconds until timer expiers
+Nov  7 01:13:23 debian MAN-DAEMON-LOGGER[2926]: -97 seconds until backup timer
+Nov  7 01:13:24 debian MAN-DAEMON-LOGGER[2926]: -96 seconds until timer expiers
+Nov  7 01:13:24 debian MAN-DAEMON-LOGGER[2926]: -96 seconds until backup timer
+Nov  7 01:13:25 debian MAN-DAEMON-LOGGER[2926]: -95 seconds until timer expiers
+Nov  7 01:13:25 debian MAN-DAEMON-LOGGER[2926]: -95 seconds until backup timer
+Nov  7 01:13:26 debian MAN-DAEMON-LOGGER[2926]: -94 seconds until timer expiers
+Nov  7 01:13:26 debian MAN-DAEMON-LOGGER[2926]: -94 seconds until backup timer
+Nov  7 01:13:27 debian MAN-DAEMON-LOGGER[2926]: -93 seconds until timer expiers
+Nov  7 01:13:27 debian MAN-DAEMON-LOGGER[2926]: -93 seconds until backup timer
+Nov  7 01:13:28 debian MAN-DAEMON-LOGGER[2926]: -92 seconds until timer expiers
+Nov  7 01:13:28 debian MAN-DAEMON-LOGGER[2926]: -92 seconds until backup timer
+Nov  7 01:13:29 debian MAN-DAEMON-LOGGER[2926]: -91 seconds until timer expiers
+Nov  7 01:13:29 debian MAN-DAEMON-LOGGER[2926]: -91 seconds until backup timer
+Nov  7 01:13:30 debian MAN-DAEMON-LOGGER[2926]: -90 seconds until timer expiers
+Nov  7 01:13:30 debian MAN-DAEMON-LOGGER[2926]: -90 seconds until backup timer
+Nov  7 01:13:31 debian MAN-DAEMON-LOGGER[2926]: -89 seconds until timer expiers
+Nov  7 01:13:31 debian MAN-DAEMON-LOGGER[2926]: -89 seconds until backup timer
+Nov  7 01:13:32 debian MAN-DAEMON-LOGGER[2926]: -88 seconds until timer expiers
+Nov  7 01:13:32 debian MAN-DAEMON-LOGGER[2926]: -88 seconds until backup timer
+Nov  7 01:13:33 debian MAN-DAEMON-LOGGER[2926]: -87 seconds until timer expiers
+Nov  7 01:13:33 debian MAN-DAEMON-LOGGER[2926]: -87 seconds until backup timer
+Nov  7 01:13:34 debian MAN-DAEMON-LOGGER[2926]: -86 seconds until timer expiers
+Nov  7 01:13:34 debian MAN-DAEMON-LOGGER[2926]: -86 seconds until backup timer
+Nov  7 01:13:35 debian MAN-DAEMON-LOGGER[2926]: -85 seconds until timer expiers
+Nov  7 01:13:35 debian MAN-DAEMON-LOGGER[2926]: -85 seconds until backup timer
+Nov  7 01:13:36 debian MAN-DAEMON-LOGGER[2926]: -84 seconds until timer expiers
+Nov  7 01:13:36 debian MAN-DAEMON-LOGGER[2926]: -84 seconds until backup timer
+Nov  7 01:13:37 debian MAN-DAEMON-LOGGER[2926]: -83 seconds until timer expiers
+Nov  7 01:13:37 debian MAN-DAEMON-LOGGER[2926]: -83 seconds until backup timer
+Nov  7 01:13:38 debian MAN-DAEMON-LOGGER[2926]: -82 seconds until timer expiers
+Nov  7 01:13:38 debian MAN-DAEMON-LOGGER[2926]: -82 seconds until backup timer
+Nov  7 01:13:39 debian MAN-DAEMON-LOGGER[2926]: -81 seconds until timer expiers
+Nov  7 01:13:39 debian MAN-DAEMON-LOGGER[2926]: -81 seconds until backup timer
+Nov  7 01:13:40 debian MAN-DAEMON-LOGGER[2926]: -80 seconds until timer expiers
+Nov  7 01:13:40 debian MAN-DAEMON-LOGGER[2926]: -80 seconds until backup timer
+Nov  7 01:13:41 debian MAN-DAEMON-LOGGER[2926]: -79 seconds until timer expiers
+Nov  7 01:13:41 debian MAN-DAEMON-LOGGER[2926]: -79 seconds until backup timer
+Nov  7 01:13:42 debian MAN-DAEMON-LOGGER[2926]: -78 seconds until timer expiers
+Nov  7 01:13:42 debian MAN-DAEMON-LOGGER[2926]: -78 seconds until backup timer
+Nov  7 01:13:43 debian MAN-DAEMON-LOGGER[2926]: -77 seconds until timer expiers
+Nov  7 01:13:43 debian MAN-DAEMON-LOGGER[2926]: -77 seconds until backup timer
+Nov  7 01:13:44 debian MAN-DAEMON-LOGGER[2926]: -76 seconds until timer expiers
+Nov  7 01:13:44 debian MAN-DAEMON-LOGGER[2926]: -76 seconds until backup timer
+Nov  7 01:13:45 debian MAN-DAEMON-LOGGER[2926]: -75 seconds until timer expiers
+Nov  7 01:13:45 debian MAN-DAEMON-LOGGER[2926]: -75 seconds until backup timer
+Nov  7 01:13:46 debian MAN-DAEMON-LOGGER[2926]: -74 seconds until timer expiers
+Nov  7 01:13:46 debian MAN-DAEMON-LOGGER[2926]: -74 seconds until backup timer
+Nov  7 01:13:47 debian MAN-DAEMON-LOGGER[2926]: -73 seconds until timer expiers
+Nov  7 01:13:47 debian MAN-DAEMON-LOGGER[2926]: -73 seconds until backup timer
+Nov  7 01:13:48 debian MAN-DAEMON-LOGGER[2926]: -72 seconds until timer expiers
+Nov  7 01:13:48 debian MAN-DAEMON-LOGGER[2926]: -72 seconds until backup timer
+Nov  7 01:13:49 debian MAN-DAEMON-LOGGER[2926]: -71 seconds until timer expiers
+Nov  7 01:13:49 debian MAN-DAEMON-LOGGER[2926]: -71 seconds until backup timer
+Nov  7 01:13:50 debian MAN-DAEMON-LOGGER[2926]: -70 seconds until timer expiers
+Nov  7 01:13:50 debian MAN-DAEMON-LOGGER[2926]: -70 seconds until backup timer
+Nov  7 01:13:51 debian MAN-DAEMON-LOGGER[2926]: -69 seconds until timer expiers
+Nov  7 01:13:51 debian MAN-DAEMON-LOGGER[2926]: -69 seconds until backup timer
+Nov  7 01:13:52 debian MAN-DAEMON-LOGGER[2926]: -68 seconds until timer expiers
+Nov  7 01:13:52 debian MAN-DAEMON-LOGGER[2926]: -68 seconds until backup timer
+Nov  7 01:13:53 debian MAN-DAEMON-LOGGER[2926]: -67 seconds until timer expiers
+Nov  7 01:13:53 debian MAN-DAEMON-LOGGER[2926]: -67 seconds until backup timer
+Nov  7 01:13:54 debian MAN-DAEMON-LOGGER[2926]: -66 seconds until timer expiers
+Nov  7 01:13:54 debian MAN-DAEMON-LOGGER[2926]: -66 seconds until backup timer
+Nov  7 01:13:55 debian MAN-DAEMON-LOGGER[2926]: -65 seconds until timer expiers
+Nov  7 01:13:55 debian MAN-DAEMON-LOGGER[2926]: -65 seconds until backup timer
+Nov  7 01:13:56 debian MAN-DAEMON-LOGGER[2926]: -64 seconds until timer expiers
+Nov  7 01:13:56 debian MAN-DAEMON-LOGGER[2926]: -64 seconds until backup timer
+Nov  7 01:13:57 debian MAN-DAEMON-LOGGER[2926]: -63 seconds until timer expiers
+Nov  7 01:13:57 debian MAN-DAEMON-LOGGER[2926]: -63 seconds until backup timer
+Nov  7 01:13:58 debian MAN-DAEMON-LOGGER[2926]: -62 seconds until timer expiers
+Nov  7 01:13:58 debian MAN-DAEMON-LOGGER[2926]: -62 seconds until backup timer
+Nov  7 01:13:59 debian MAN-DAEMON-LOGGER[2926]: -61 seconds until timer expiers
+Nov  7 01:13:59 debian MAN-DAEMON-LOGGER[2926]: -61 seconds until backup timer
+Nov  7 01:14:00 debian MAN-DAEMON-LOGGER[2926]: -60 seconds until timer expiers
+Nov  7 01:14:00 debian MAN-DAEMON-LOGGER[2926]: -60 seconds until backup timer
+Nov  7 01:14:01 debian MAN-DAEMON-LOGGER[2926]: -59 seconds until timer expiers
+Nov  7 01:14:01 debian MAN-DAEMON-LOGGER[2926]: -59 seconds until backup timer
+Nov  7 01:14:02 debian MAN-DAEMON-LOGGER[2926]: -58 seconds until timer expiers
+Nov  7 01:14:02 debian MAN-DAEMON-LOGGER[2926]: -58 seconds until backup timer
+Nov  7 01:14:03 debian MAN-DAEMON-LOGGER[2926]: -57 seconds until timer expiers
+Nov  7 01:14:03 debian MAN-DAEMON-LOGGER[2926]: -57 seconds until backup timer
+Nov  7 01:14:04 debian MAN-DAEMON-LOGGER[2926]: -56 seconds until timer expiers
+Nov  7 01:14:04 debian MAN-DAEMON-LOGGER[2926]: -56 seconds until backup timer
+Nov  7 01:14:05 debian MAN-DAEMON-LOGGER[2926]: -55 seconds until timer expiers
+Nov  7 01:14:05 debian MAN-DAEMON-LOGGER[2926]: -55 seconds until backup timer
+Nov  7 01:14:06 debian MAN-DAEMON-LOGGER[2926]: -54 seconds until timer expiers
+Nov  7 01:14:06 debian MAN-DAEMON-LOGGER[2926]: -54 seconds until backup timer
+Nov  7 01:14:07 debian MAN-DAEMON-LOGGER[2926]: -53 seconds until timer expiers
+Nov  7 01:14:07 debian MAN-DAEMON-LOGGER[2926]: -53 seconds until backup timer
+Nov  7 01:14:08 debian MAN-DAEMON-LOGGER[2926]: -52 seconds until timer expiers
+Nov  7 01:14:08 debian MAN-DAEMON-LOGGER[2926]: -52 seconds until backup timer
+Nov  7 01:14:09 debian MAN-DAEMON-LOGGER[2926]: -51 seconds until timer expiers
+Nov  7 01:14:09 debian MAN-DAEMON-LOGGER[2926]: -51 seconds until backup timer
+Nov  7 01:14:10 debian MAN-DAEMON-LOGGER[2926]: -50 seconds until timer expiers
+Nov  7 01:14:10 debian MAN-DAEMON-LOGGER[2926]: -50 seconds until backup timer
+Nov  7 01:14:11 debian MAN-DAEMON-LOGGER[2926]: -49 seconds until timer expiers
+Nov  7 01:14:11 debian MAN-DAEMON-LOGGER[2926]: -49 seconds until backup timer
+Nov  7 01:14:12 debian MAN-DAEMON-LOGGER[2926]: -48 seconds until timer expiers
+Nov  7 01:14:12 debian MAN-DAEMON-LOGGER[2926]: -48 seconds until backup timer
+Nov  7 01:14:13 debian MAN-DAEMON-LOGGER[2926]: -47 seconds until timer expiers
+Nov  7 01:14:13 debian MAN-DAEMON-LOGGER[2926]: -47 seconds until backup timer
+Nov  7 01:14:14 debian MAN-DAEMON-LOGGER[2926]: -46 seconds until timer expiers
+Nov  7 01:14:14 debian MAN-DAEMON-LOGGER[2926]: -46 seconds until backup timer
+Nov  7 01:14:15 debian MAN-DAEMON-LOGGER[2926]: -45 seconds until timer expiers
+Nov  7 01:14:15 debian MAN-DAEMON-LOGGER[2926]: -45 seconds until backup timer
+Nov  7 01:14:16 debian MAN-DAEMON-LOGGER[2926]: -44 seconds until timer expiers
+Nov  7 01:14:16 debian MAN-DAEMON-LOGGER[2926]: -44 seconds until backup timer
+Nov  7 01:14:17 debian MAN-DAEMON-LOGGER[2926]: -43 seconds until timer expiers
+Nov  7 01:14:17 debian MAN-DAEMON-LOGGER[2926]: -43 seconds until backup timer
+Nov  7 01:14:18 debian MAN-DAEMON-LOGGER[2926]: -42 seconds until timer expiers
+Nov  7 01:14:18 debian MAN-DAEMON-LOGGER[2926]: -42 seconds until backup timer
+Nov  7 01:14:19 debian MAN-DAEMON-LOGGER[2926]: -41 seconds until timer expiers
+Nov  7 01:14:19 debian MAN-DAEMON-LOGGER[2926]: -41 seconds until backup timer
+Nov  7 01:14:20 debian MAN-DAEMON-LOGGER[2926]: -40 seconds until timer expiers
+Nov  7 01:14:20 debian MAN-DAEMON-LOGGER[2926]: -40 seconds until backup timer
+Nov  7 01:14:21 debian MAN-DAEMON-LOGGER[2926]: -39 seconds until timer expiers
+Nov  7 01:14:21 debian MAN-DAEMON-LOGGER[2926]: -39 seconds until backup timer
+Nov  7 01:14:22 debian MAN-DAEMON-LOGGER[2926]: -38 seconds until timer expiers
+Nov  7 01:14:22 debian MAN-DAEMON-LOGGER[2926]: -38 seconds until backup timer
+Nov  7 01:14:23 debian MAN-DAEMON-LOGGER[2926]: -37 seconds until timer expiers
+Nov  7 01:14:23 debian MAN-DAEMON-LOGGER[2926]: -37 seconds until backup timer
+Nov  7 01:14:24 debian MAN-DAEMON-LOGGER[2926]: -36 seconds until timer expiers
+Nov  7 01:14:24 debian MAN-DAEMON-LOGGER[2926]: -36 seconds until backup timer
+Nov  7 01:14:25 debian MAN-DAEMON-LOGGER[2926]: -35 seconds until timer expiers
+Nov  7 01:14:25 debian MAN-DAEMON-LOGGER[2926]: -35 seconds until backup timer
+Nov  7 01:14:26 debian MAN-DAEMON-LOGGER[2926]: -34 seconds until timer expiers
+Nov  7 01:14:26 debian MAN-DAEMON-LOGGER[2926]: -34 seconds until backup timer
+Nov  7 01:14:27 debian MAN-DAEMON-LOGGER[2926]: -33 seconds until timer expiers
+Nov  7 01:14:27 debian MAN-DAEMON-LOGGER[2926]: -33 seconds until backup timer
+Nov  7 01:14:28 debian MAN-DAEMON-LOGGER[2926]: -32 seconds until timer expiers
+Nov  7 01:14:28 debian MAN-DAEMON-LOGGER[2926]: -32 seconds until backup timer
+Nov  7 01:14:29 debian MAN-DAEMON-LOGGER[2926]: -31 seconds until timer expiers
+Nov  7 01:14:29 debian MAN-DAEMON-LOGGER[2926]: -31 seconds until backup timer
+Nov  7 01:14:30 debian MAN-DAEMON-LOGGER[2926]: -30 seconds until timer expiers
+Nov  7 01:14:30 debian MAN-DAEMON-LOGGER[2926]: -30 seconds until backup timer
+Nov  7 01:14:31 debian MAN-DAEMON-LOGGER[2926]: -29 seconds until timer expiers
+Nov  7 01:14:31 debian MAN-DAEMON-LOGGER[2926]: -29 seconds until backup timer
+Nov  7 01:14:32 debian MAN-DAEMON-LOGGER[2926]: -28 seconds until timer expiers
+Nov  7 01:14:32 debian MAN-DAEMON-LOGGER[2926]: -28 seconds until backup timer
+Nov  7 01:14:33 debian MAN-DAEMON-LOGGER[2926]: -27 seconds until timer expiers
+Nov  7 01:14:33 debian MAN-DAEMON-LOGGER[2926]: -27 seconds until backup timer
+Nov  7 01:14:34 debian MAN-DAEMON-LOGGER[2926]: -26 seconds until timer expiers
+Nov  7 01:14:34 debian MAN-DAEMON-LOGGER[2926]: -26 seconds until backup timer
+Nov  7 01:14:35 debian MAN-DAEMON-LOGGER[2926]: -25 seconds until timer expiers
+Nov  7 01:14:35 debian MAN-DAEMON-LOGGER[2926]: -25 seconds until backup timer
+Nov  7 01:14:36 debian MAN-DAEMON-LOGGER[2926]: -24 seconds until timer expiers
+Nov  7 01:14:36 debian MAN-DAEMON-LOGGER[2926]: -24 seconds until backup timer
+Nov  7 01:14:37 debian MAN-DAEMON-LOGGER[2926]: -23 seconds until timer expiers
+Nov  7 01:14:37 debian MAN-DAEMON-LOGGER[2926]: -23 seconds until backup timer
+Nov  7 01:14:38 debian MAN-DAEMON-LOGGER[2926]: -22 seconds until timer expiers
+Nov  7 01:14:38 debian MAN-DAEMON-LOGGER[2926]: -22 seconds until backup timer
+Nov  7 01:14:39 debian MAN-DAEMON-LOGGER[2926]: -21 seconds until timer expiers
+Nov  7 01:14:39 debian MAN-DAEMON-LOGGER[2926]: -21 seconds until backup timer
+Nov  7 01:14:40 debian MAN-DAEMON-LOGGER[2926]: -20 seconds until timer expiers
+Nov  7 01:14:40 debian MAN-DAEMON-LOGGER[2926]: -20 seconds until backup timer
+Nov  7 01:14:41 debian MAN-DAEMON-LOGGER[2926]: -19 seconds until timer expiers
+Nov  7 01:14:41 debian MAN-DAEMON-LOGGER[2926]: -19 seconds until backup timer
+Nov  7 01:14:42 debian MAN-DAEMON-LOGGER[2926]: -18 seconds until timer expiers
+Nov  7 01:14:42 debian MAN-DAEMON-LOGGER[2926]: -18 seconds until backup timer
+Nov  7 01:14:43 debian MAN-DAEMON-LOGGER[2926]: -17 seconds until timer expiers
+Nov  7 01:14:43 debian MAN-DAEMON-LOGGER[2926]: -17 seconds until backup timer
+Nov  7 01:14:44 debian MAN-DAEMON-LOGGER[2926]: -16 seconds until timer expiers
+Nov  7 01:14:44 debian MAN-DAEMON-LOGGER[2926]: -16 seconds until backup timer
+Nov  7 01:14:45 debian MAN-DAEMON-LOGGER[2926]: -15 seconds until timer expiers
+Nov  7 01:14:45 debian MAN-DAEMON-LOGGER[2926]: -15 seconds until backup timer
+Nov  7 01:14:46 debian MAN-DAEMON-LOGGER[2926]: -14 seconds until timer expiers
+Nov  7 01:14:46 debian MAN-DAEMON-LOGGER[2926]: -14 seconds until backup timer
+Nov  7 01:14:47 debian MAN-DAEMON-LOGGER[2926]: -13 seconds until timer expiers
+Nov  7 01:14:47 debian MAN-DAEMON-LOGGER[2926]: -13 seconds until backup timer
+Nov  7 01:14:48 debian MAN-DAEMON-LOGGER[2926]: -12 seconds until timer expiers
+Nov  7 01:14:48 debian MAN-DAEMON-LOGGER[2926]: -12 seconds until backup timer
+Nov  7 01:14:49 debian MAN-DAEMON-LOGGER[2926]: -11 seconds until timer expiers
+Nov  7 01:14:49 debian MAN-DAEMON-LOGGER[2926]: -11 seconds until backup timer
+Nov  7 01:14:50 debian MAN-DAEMON-LOGGER[2926]: -10 seconds until timer expiers
+Nov  7 01:14:50 debian MAN-DAEMON-LOGGER[2926]: -10 seconds until backup timer
+Nov  7 01:14:51 debian MAN-DAEMON-LOGGER[2926]: -9 seconds until timer expiers
+Nov  7 01:14:51 debian MAN-DAEMON-LOGGER[2926]: -9 seconds until backup timer
+Nov  7 01:14:52 debian MAN-DAEMON-LOGGER[2926]: -8 seconds until timer expiers
+Nov  7 01:14:52 debian MAN-DAEMON-LOGGER[2926]: -8 seconds until backup timer
+Nov  7 01:14:53 debian MAN-DAEMON-LOGGER[2926]: -7 seconds until timer expiers
+Nov  7 01:14:53 debian MAN-DAEMON-LOGGER[2926]: -7 seconds until backup timer
+Nov  7 01:14:54 debian MAN-DAEMON-LOGGER[2926]: -6 seconds until timer expiers
+Nov  7 01:14:54 debian MAN-DAEMON-LOGGER[2926]: -6 seconds until backup timer
+Nov  7 01:14:55 debian MAN-DAEMON-LOGGER[2926]: -5 seconds until timer expiers
+Nov  7 01:14:55 debian MAN-DAEMON-LOGGER[2926]: -5 seconds until backup timer
+Nov  7 01:14:56 debian MAN-DAEMON-LOGGER[2926]: -4 seconds until timer expiers
+Nov  7 01:14:56 debian MAN-DAEMON-LOGGER[2926]: -4 seconds until backup timer
+Nov  7 01:14:57 debian MAN-DAEMON-LOGGER[2926]: -3 seconds until timer expiers
+Nov  7 01:14:57 debian MAN-DAEMON-LOGGER[2926]: -3 seconds until backup timer
+Nov  7 01:14:58 debian MAN-DAEMON-LOGGER[2926]: -2 seconds until timer expiers
+Nov  7 01:14:58 debian MAN-DAEMON-LOGGER[2926]: -2 seconds until backup timer
+Nov  7 01:14:59 debian MAN-DAEMON-LOGGER[2926]: -1 seconds until timer expiers
+Nov  7 01:14:59 debian MAN-DAEMON-LOGGER[2926]: -1 seconds until backup timer
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: 0 seconds until timer expiers
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: CHECKING FOR UPLOADED XML REPORTS
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: File /home/alex/Desktop/assignment/managers_xml_upload/manufacturing_report.xml hasn't been uploaded by the manager
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: File /home/alex/Desktop/assignment/managers_xml_upload/warehouse_report.xml hasn't been uploaded by the manager
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: File /home/alex/Desktop/assignment/managers_xml_upload/sales_report.xml hasn't been uploaded by the manager
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: File /home/alex/Desktop/assignment/managers_xml_upload/distribution_report.xml hasn't been uploaded by the manager
+Nov  7 01:15:00 debian MAN-DAEMON-LOGGER[2926]: 0 seconds until backup timer
+Nov  7 01:15:01 debian MAN-DAEMON-LOGGER[2926]: 1 seconds until timer expiers
+Nov  7 01:15:01 debian MAN-DAEMON-LOGGER[2926]: 1 seconds until backup timer
+Nov  7 01:15:02 debian MAN-DAEMON-LOGGER[2926]: 2 seconds until timer expiers
+Nov  7 01:15:02 debian MAN-DAEMON-LOGGER[2926]: 2 seconds until backup timer
+Nov  7 01:15:03 debian MAN-DAEMON-LOGGER[2926]: 3 seconds until timer expiers
+Nov  7 01:15:03 debian MAN-DAEMON-LOGGER[2926]: 3 seconds until backup timer
+Nov  7 01:15:04 debian MAN-DAEMON-LOGGER[2926]: 4 seconds until timer expiers
+Nov  7 01:15:04 debian MAN-DAEMON-LOGGER[2926]: 4 seconds until backup timer
+Nov  7 01:15:05 debian MAN-DAEMON-LOGGER[2926]: 5 seconds until timer expiers
+Nov  7 01:15:05 debian MAN-DAEMON-LOGGER[2926]: 5 seconds until backup timer
+Nov  7 01:15:06 debian MAN-DAEMON-LOGGER[2926]: 6 seconds until timer expiers
+Nov  7 01:15:06 debian MAN-DAEMON-LOGGER[2926]: 6 seconds until backup timer
+Nov  7 01:15:07 debian MAN-DAEMON-LOGGER[2926]: 7 seconds until timer expiers
+Nov  7 01:15:07 debian MAN-DAEMON-LOGGER[2926]: 7 seconds until backup timer
+Nov  7 01:15:08 debian MAN-DAEMON-LOGGER[2926]: 8 seconds until timer expiers
+Nov  7 01:15:08 debian MAN-DAEMON-LOGGER[2926]: 8 seconds until backup timer
+Nov  7 01:15:09 debian MAN-DAEMON-LOGGER[2926]: 9 seconds until timer expiers
+Nov  7 01:15:09 debian MAN-DAEMON-LOGGER[2926]: 9 seconds until backup timer
+Nov  7 01:15:10 debian MAN-DAEMON-LOGGER[2926]: 10 seconds until timer expiers
+Nov  7 01:15:10 debian MAN-DAEMON-LOGGER[2926]: 10 seconds until backup timer
+Nov  7 01:15:11 debian MAN-DAEMON-LOGGER[2926]: 11 seconds until timer expiers
+Nov  7 01:15:11 debian MAN-DAEMON-LOGGER[2926]: 11 seconds until backup timer
+Nov  7 01:15:12 debian MAN-DAEMON-LOGGER[2926]: 12 seconds until timer expiers
+Nov  7 01:15:12 debian MAN-DAEMON-LOGGER[2926]: 12 seconds until backup timer
+Nov  7 01:15:13 debian MAN-DAEMON-LOGGER[2926]: 13 seconds until timer expiers
+Nov  7 01:15:13 debian MAN-DAEMON-LOGGER[2926]: 13 seconds until backup timer
+Nov  7 01:15:14 debian MAN-DAEMON-LOGGER[2926]: 14 seconds until timer expiers
+Nov  7 01:15:14 debian MAN-DAEMON-LOGGER[2926]: 14 seconds until backup timer
+Nov  7 01:15:15 debian MAN-DAEMON-LOGGER[2926]: 15 seconds until timer expiers
+Nov  7 01:15:15 debian MAN-DAEMON-LOGGER[2926]: 15 seconds until backup timer
+Nov  7 01:15:16 debian MAN-DAEMON-LOGGER[2926]: 16 seconds until timer expiers
+Nov  7 01:15:16 debian MAN-DAEMON-LOGGER[2926]: 16 seconds until backup timer
+Nov  7 01:15:17 debian MAN-DAEMON-LOGGER[2926]: 17 seconds until timer expiers
+Nov  7 01:15:17 debian MAN-DAEMON-LOGGER[2926]: 17 seconds until backup timer
+Nov  7 01:15:18 debian MAN-DAEMON-LOGGER[2926]: 18 seconds until timer expiers
+Nov  7 01:15:18 debian MAN-DAEMON-LOGGER[2926]: 18 seconds until backup timer
+Nov  7 01:15:19 debian MAN-DAEMON-LOGGER[2926]: 19 seconds until timer expiers
+Nov  7 01:15:19 debian MAN-DAEMON-LOGGER[2926]: 19 seconds until backup timer
+Nov  7 01:15:20 debian MAN-DAEMON-LOGGER[2926]: 20 seconds until timer expiers
+Nov  7 01:15:20 debian MAN-DAEMON-LOGGER[2926]: 20 seconds until backup timer
+Nov  7 01:15:21 debian MAN-DAEMON-LOGGER[2926]: 21 seconds until timer expiers
+Nov  7 01:15:21 debian MAN-DAEMON-LOGGER[2926]: 21 seconds until backup timer
+Nov  7 01:15:22 debian MAN-DAEMON-LOGGER[2926]: 22 seconds until timer expiers
+Nov  7 01:15:22 debian MAN-DAEMON-LOGGER[2926]: 22 seconds until backup timer
+Nov  7 01:15:23 debian MAN-DAEMON-LOGGER[2926]: 23 seconds until timer expiers
+Nov  7 01:15:23 debian MAN-DAEMON-LOGGER[2926]: 23 seconds until backup timer
+Nov  7 01:15:24 debian MAN-DAEMON-LOGGER[2926]: 24 seconds until timer expiers
+Nov  7 01:15:24 debian MAN-DAEMON-LOGGER[2926]: 24 seconds until backup timer
+Nov  7 01:15:25 debian MAN-DAEMON-LOGGER[2926]: 25 seconds until timer expiers
+Nov  7 01:15:25 debian MAN-DAEMON-LOGGER[2926]: 25 seconds until backup timer
+Nov  7 01:15:26 debian MAN-DAEMON-LOGGER[2926]: 26 seconds until timer expiers
+Nov  7 01:15:26 debian MAN-DAEMON-LOGGER[2926]: 26 seconds until backup timer
+Nov  7 01:15:27 debian MAN-DAEMON-LOGGER[2926]: 27 seconds until timer expiers
+Nov  7 01:15:27 debian MAN-DAEMON-LOGGER[2926]: 27 seconds until backup timer
+Nov  7 01:15:28 debian MAN-DAEMON-LOGGER[2926]: 28 seconds until timer expiers
+Nov  7 01:15:28 debian MAN-DAEMON-LOGGER[2926]: 28 seconds until backup timer
+Nov  7 01:15:29 debian MAN-DAEMON-LOGGER[2926]: 29 seconds until timer expiers
+Nov  7 01:15:29 debian MAN-DAEMON-LOGGER[2926]: 29 seconds until backup timer
+Nov  7 01:15:30 debian MAN-DAEMON-LOGGER[2926]: 30 seconds until timer expiers
+Nov  7 01:15:30 debian MAN-DAEMON-LOGGER[2926]: 30 seconds until backup timer
+Nov  7 01:15:31 debian MAN-DAEMON-LOGGER[2926]: 31 seconds until timer expiers
+Nov  7 01:15:31 debian MAN-DAEMON-LOGGER[2926]: 31 seconds until backup timer
+Nov  7 01:15:32 debian MAN-DAEMON-LOGGER[2926]: 32 seconds until timer expiers
+Nov  7 01:15:32 debian MAN-DAEMON-LOGGER[2926]: 32 seconds until backup timer
+Nov  7 01:15:33 debian MAN-DAEMON-LOGGER[2926]: 33 seconds until timer expiers
+Nov  7 01:15:33 debian MAN-DAEMON-LOGGER[2926]: 33 seconds until backup timer
+Nov  7 01:15:34 debian MAN-DAEMON-LOGGER[2926]: 34 seconds until timer expiers
+Nov  7 01:15:34 debian MAN-DAEMON-LOGGER[2926]: 34 seconds until backup timer
+Nov  7 01:15:35 debian MAN-DAEMON-LOGGER[2926]: 35 seconds until timer expiers
+Nov  7 01:15:35 debian MAN-DAEMON-LOGGER[2926]: 35 seconds until backup timer
+Nov  7 01:15:36 debian MAN-DAEMON-LOGGER[2926]: 36 seconds until timer expiers
+Nov  7 01:15:36 debian MAN-DAEMON-LOGGER[2926]: 36 seconds until backup timer
+Nov  7 01:15:37 debian MAN-DAEMON-LOGGER[2926]: 37 seconds until timer expiers
+Nov  7 01:15:37 debian MAN-DAEMON-LOGGER[2926]: 37 seconds until backup timer
+Nov  7 01:15:38 debian MAN-DAEMON-LOGGER[2926]: 38 seconds until timer expiers
+Nov  7 01:15:38 debian MAN-DAEMON-LOGGER[2926]: 38 seconds until backup timer
+Nov  7 01:15:39 debian MAN-DAEMON-LOGGER[2926]: 39 seconds until timer expiers
+Nov  7 01:15:39 debian MAN-DAEMON-LOGGER[2926]: 39 seconds until backup timer
+Nov  7 01:15:40 debian MAN-DAEMON-LOGGER[2926]: 40 seconds until timer expiers
+Nov  7 01:15:40 debian MAN-DAEMON-LOGGER[2926]: 40 seconds until backup timer
+Nov  7 01:15:41 debian MAN-DAEMON-LOGGER[2926]: 41 seconds until timer expiers
+Nov  7 01:15:41 debian MAN-DAEMON-LOGGER[2926]: 41 seconds until backup timer
+Nov  7 01:15:42 debian MAN-DAEMON-LOGGER[2926]: 42 seconds until timer expiers
+Nov  7 01:15:42 debian MAN-DAEMON-LOGGER[2926]: 42 seconds until backup timer
+Nov  7 01:15:43 debian MAN-DAEMON-LOGGER[2926]: 43 seconds until timer expiers
+Nov  7 01:15:43 debian MAN-DAEMON-LOGGER[2926]: 43 seconds until backup timer
+Nov  7 01:15:44 debian MAN-DAEMON-LOGGER[2926]: 44 seconds until timer expiers
+Nov  7 01:15:44 debian MAN-DAEMON-LOGGER[2926]: 44 seconds until backup timer
+Nov  7 01:15:45 debian MAN-DAEMON-LOGGER[2926]: 45 seconds until timer expiers
+Nov  7 01:15:45 debian MAN-DAEMON-LOGGER[2926]: 45 seconds until backup timer
+Nov  7 01:15:46 debian MAN-DAEMON-LOGGER[2926]: 46 seconds until timer expiers
+Nov  7 01:15:46 debian MAN-DAEMON-LOGGER[2926]: 46 seconds until backup timer
+Nov  7 01:15:47 debian MAN-DAEMON-LOGGER[2926]: 47 seconds until timer expiers
+Nov  7 01:15:47 debian MAN-DAEMON-LOGGER[2926]: 47 seconds until backup timer
+Nov  7 01:15:48 debian MAN-DAEMON-LOGGER[2926]: 48 seconds until timer expiers
+Nov  7 01:15:48 debian MAN-DAEMON-LOGGER[2926]: 48 seconds until backup timer
+Nov  7 01:15:49 debian MAN-DAEMON-LOGGER[2926]: 49 seconds until timer expiers
+Nov  7 01:15:49 debian MAN-DAEMON-LOGGER[2926]: 49 seconds until backup timer
+Nov  7 01:15:50 debian MAN-DAEMON-LOGGER[2926]: 50 seconds until timer expiers
+Nov  7 01:15:50 debian MAN-DAEMON-LOGGER[2926]: 50 seconds until backup timer
+Nov  7 01:15:51 debian MAN-DAEMON-LOGGER[2926]: 51 seconds until timer expiers
+Nov  7 01:15:51 debian MAN-DAEMON-LOGGER[2926]: 51 seconds until backup timer
+Nov  7 01:15:52 debian MAN-DAEMON-LOGGER[2926]: 52 seconds until timer expiers
+Nov  7 01:15:52 debian MAN-DAEMON-LOGGER[2926]: 52 seconds until backup timer
+Nov  7 01:15:53 debian MAN-DAEMON-LOGGER[2926]: 53 seconds until timer expiers
+Nov  7 01:15:53 debian MAN-DAEMON-LOGGER[2926]: 53 seconds until backup timer
+Nov  7 01:15:54 debian MAN-DAEMON-LOGGER[2926]: 54 seconds until timer expiers
+Nov  7 01:15:54 debian MAN-DAEMON-LOGGER[2926]: 54 seconds until backup timer
+Nov  7 01:15:55 debian MAN-DAEMON-LOGGER[2926]: 55 seconds until timer expiers
+Nov  7 01:15:55 debian MAN-DAEMON-LOGGER[2926]: 55 seconds until backup timer
+Nov  7 01:15:56 debian MAN-DAEMON-LOGGER[2926]: 56 seconds until timer expiers
+Nov  7 01:15:56 debian MAN-DAEMON-LOGGER[2926]: 56 seconds until backup timer
+Nov  7 01:15:57 debian MAN-DAEMON-LOGGER[2926]: 57 seconds until timer expiers
+Nov  7 01:15:57 debian MAN-DAEMON-LOGGER[2926]: 57 seconds until backup timer
+Nov  7 01:15:58 debian MAN-DAEMON-LOGGER[2926]: 58 seconds until timer expiers
+Nov  7 01:15:58 debian MAN-DAEMON-LOGGER[2926]: 58 seconds until backup timer
+Nov  7 01:15:59 debian MAN-DAEMON-LOGGER[2926]: 59 seconds until timer expiers
+Nov  7 01:15:59 debian MAN-DAEMON-LOGGER[2926]: 59 seconds until backup timer
+Nov  7 01:16:00 debian MAN-DAEMON-LOGGER[2926]: 60 seconds until timer expiers
+Nov  7 01:16:00 debian MAN-DAEMON-LOGGER[2926]: 60 seconds until backup timer
+Nov  7 01:16:00 debian MAN-DAEMON-LOGGER[2926]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Nov  7 01:16:00 debian MAN-DAEMON-LOGGER[2972]: COLLECTING REPORTS
+Nov  7 01:16:00 debian MAN-DAEMON-LOGGER[2926]: ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS 1
+Nov  7 01:16:00 debian MAN-DAEMON-LOGGER[2926]: Successfully backed up dashboard, STATUS 0
+Nov  7 01:16:20 debian MAN-DAEMON-LOGGER[2926]: DIRECTORIES HAVE BEEN UNLOCKED
+Nov  7 01:16:20 debian MAN-DAEMON-LOGGER[2983]: GENERATING REPORTS

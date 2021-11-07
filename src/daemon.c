@@ -1,3 +1,23 @@
+/*
+ * Daemon Program. CA 1 - Systems Software
+ *
+ *
+ * At 11:30 pm , there will be a check for the xml files that have been uploaded or 
+ * files that have not been upladed
+ *
+ * At 1:00 am, the xml reports will be backed up from xml_upload_directory to 
+ * dashboard_directory
+ *
+ * Directories are locked during transfer / backup
+ * 
+ * Kill -2 signal will enable the daemon to transfer / backup at any given time
+ *
+ * Alexandru Bulgari
+ * C18342126
+ *
+ * */
+
+
 // Orphan Example
 // The child process is adopted by init process, when parent process dies.
 #include<stdio.h>
@@ -10,7 +30,6 @@
 #include <time.h>
 #include "daemon_tasks.h"
 #include <signal.h>
-#include <syslog.h>
 
 
  
@@ -18,11 +37,10 @@ int main()
 {
     time_t now;
     struct tm backup_time;
-    double seconds;
     time(&now);  /* get current time; same as: now = time(NULL)  */
     backup_time = *localtime(&now);
-    backup_time.tm_hour = 21; 
-    backup_time.tm_min = 23; 
+    backup_time.tm_hour = 1; 
+    backup_time.tm_min = 16; 
     backup_time.tm_sec = 0;
 
     // Implementation for Singleton Pattern if desired (Only one instance running)
@@ -33,7 +51,7 @@ int main()
     if (pid > 0) {
         // if PID > 0 :: this is the parent
         // this process performs printf and finishes
-        sleep(10);  // uncomment to wait 10 seconds before process ends
+        //sleep(10);  // uncomment to wait 10 seconds before process ends
         exit(EXIT_SUCCESS);
     } else if (pid == 0) {
        // Step 1: Create the orphan process
@@ -68,6 +86,7 @@ int main()
 
           // Log file goes here
 	  openlog("MAN-DAEMON-LOGGER", LOG_PID | LOG_CONS, LOG_DAEMON);
+	  syslog(LOG_INFO, "DAEMON STARTED FOR MANUFACTURING COMPANY");
           // Orphan Logic goes here!! 
           // Keep process running with infinite loop
           // When the parent finishes after 10 seconds, 
@@ -76,34 +95,54 @@ int main()
 	  struct tm check_uploads_time;
 	  time(&now);  /* get current time; same as: now = time(NULL)  */
 	  check_uploads_time = *localtime(&now);
-	  check_uploads_time.tm_hour = 11; 
-	  check_uploads_time.tm_min = 7; 
+	  check_uploads_time.tm_hour = 12; 
+	  check_uploads_time.tm_min = 42; 
 	  check_uploads_time.tm_sec = 0;
 	
-  	  //while(1) {
+  	  while(1) {
 	  	sleep(1);
 
 		if(signal(SIGINT, sig_handler) == SIG_ERR) {
 			syslog(LOG_ERR, "ERROR: daemon.c : SIG_ERR RECEIVED");
+		} 
+
+		
+		//countdown to 23:30
+	  	time(&now);
+		double seconds_to_files_check = difftime(now,mktime(&check_uploads_time));
+		syslog(LOG_INFO, "%.f seconds until check for xml uploads", seconds_to_files_check);
+		if(seconds_to_files_check == 0) {
+			check_file_uploads();
+
+			//change to tommorow's day
+			update_timer(&check_uploads_time);
 		}
-	 // 	time(&now);
-	 // 	seconds = difftime(now,mktime(&check_uploads_time));
-	//	if(seconds == 0) {
-			//check_file_uploads();
-//		}		
-	  //}
+				
 
-	  
+		//countdown to 1:00
+		time(&now);
+		double seconds_to_transfer = difftime(now, mktime(&backup_time));
+		//syslog(LOG_INFO, "%.f seconds until backup", seconds_to_files_check);
+		if(seconds_to_transfer == 0) {
+			lock_directories();
+			collect_reports();	  
+			backup_dashboard();
+			sleep(20);
+			unlock_directories();
+			generate_reports();
 
-	 lock_directories();
+			//after actions are finished, start counting to next day
+			update_timer(&backup_time);
+		}	
+	  }
 
-	 //collect_reports();	  
-	 backup_dashboard();
-	 //generate_reports();
-	 sleep(15);
-	 unlock_directories();
- 
-				   
+
+//	syslog(LOG_INFO, "DAY BEFORE %d", check_uploads_time.tm_mday); 
+//	update_timer(&check_uploads_time); 
+//	syslog(LOG_INFO, "DAY After %d", check_uploads_time.tm_mday);
+
+	
+		   
 	}	
 	closelog();
        return 0;

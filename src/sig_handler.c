@@ -2,6 +2,7 @@
 #include <syslog.h>
 #include "daemon_tasks.h"
 #include <signal.h>
+#include <stdlib.h>
 
 
 void sig_handler(int sigNum)
@@ -11,6 +12,8 @@ void sig_handler(int sigNum)
 		lock_directories();
 		collect_reports();
 		backup_dashboard();
-		unlock_directories();
+		sleep(30);
+		unlock_directories();	
 	}
+
 }

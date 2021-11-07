@@ -1,0 +1,34 @@
+
+File Report
+===============================================
+# date time file syscall success exe auid event
+===============================================
+1. 07/11/21 00:32:04 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 182
+2. 07/11/21 00:32:04 /home/alex/Desktop/assignment/managers_xml_upload/ openat yes /usr/bin/dash unset 183
+3. 07/11/21 00:32:04 /home/alex/Desktop/assignment/ renameat2 no /usr/bin/mv unset 184
+4. 07/11/21 00:32:04 /home/alex/Desktop/assignment/dashboard_system/ renameat2 no /usr/bin/mv unset 185
+5. 07/11/21 00:33:04 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 246
+6. 07/11/21 00:36:19 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 276
+7. 07/11/21 00:36:19 /home/alex/Desktop/assignment/managers_xml_upload/ openat yes /usr/bin/dash unset 277
+8. 07/11/21 00:36:19 /home/alex/Desktop/assignment/ renameat2 no /usr/bin/mv unset 278
+9. 07/11/21 00:36:19 /home/alex/Desktop/assignment/dashboard_system/ renameat2 no /usr/bin/mv unset 279
+10. 07/11/21 00:37:19 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 292
+11. 07/11/21 00:54:52 /home/alex/Desktop/assignment/managers_xml_upload openat yes /usr/bin/nautilus alex 491
+12. 07/11/21 00:55:40 /home/alex/Desktop/assignment/managers_xml_upload openat yes /usr/bin/nautilus alex 501
+13. 07/11/21 00:57:28 /home/alex/Desktop/assignment/managers_xml_upload openat yes /usr/bin/nautilus alex 525
+14. 07/11/21 00:59:00 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 571
+15. 07/11/21 00:59:00 /home/alex/Desktop/assignment/managers_xml_upload/ openat yes /usr/bin/dash unset 572
+16. 07/11/21 00:59:00 /home/alex/Desktop/assignment/ renameat2 no /usr/bin/mv unset 573
+17. 07/11/21 00:59:00 /home/alex/Desktop/assignment/dashboard_system/ renameat2 no /usr/bin/mv unset 574
+18. 07/11/21 00:59:20 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 583
+19. 07/11/21 01:00:00 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 624
+20. 07/11/21 01:00:00 /home/alex/Desktop/assignment/managers_xml_upload/ openat yes /usr/bin/dash unset 625
+21. 07/11/21 01:00:00 /home/alex/Desktop/assignment/ renameat2 no /usr/bin/mv unset 626
+22. 07/11/21 01:00:00 /home/alex/Desktop/assignment/dashboard_system/ renameat2 no /usr/bin/mv unset 627
+23. 07/11/21 01:00:20 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 630
+24. 07/11/21 01:12:14 /home/alex/Desktop/assignment/managers_xml_upload openat yes /usr/bin/nautilus alex 755
+25. 07/11/21 01:16:00 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 788
+26. 07/11/21 01:16:00 /home/alex/Desktop/assignment/managers_xml_upload/ openat yes /usr/bin/dash unset 789
+27. 07/11/21 01:16:00 /home/alex/Desktop/assignment/ renameat2 no /usr/bin/mv unset 790
+28. 07/11/21 01:16:00 /home/alex/Desktop/assignment/dashboard_system/ renameat2 no /usr/bin/mv unset 791
+29. 07/11/21 01:16:20 /home/alex/Desktop/assignment/managers_xml_upload fchmodat yes /usr/bin/chmod unset 794
